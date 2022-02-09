@@ -1,0 +1,203 @@
+0000.003 (0) Opened log file at time: Mon, 31 Jan 2022 13:36:45 +0000 on https://dev.from6.com/from6/wp/from6-new
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.6.7 PHP: 7.4.27 (cgi-fcgi, Linux box5141.bluehost.com 4.19.150-76.ELK.el6.x86_64 #1 SMP Wed Oct 7 01:34:10 CDT 2020 x86_64) MySQL: 5.6.41-84.1 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.9M | 48.5M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.082 (0) Free space on disk containing Updraft's temporary directory: 247489.4 MB
+0000.084 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.085 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.088 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1641194316, seconds_ago=2441889)
+0000.089 (0) Set semaphore last lock (f) time to 2022-01-31 13:36:45
+0000.089 (0) Semaphore lock (f) complete
+0000.092 (0) Backup run: resumption=0, nonce=8dfe30f790bd, file_nonce=8dfe30f790bd begun at=1643636205 (0s ago), job type=backup
+0000.093 (0) Scheduling a resumption (1) after 300 seconds (1643636505) in case this run gets aborted
+0000.108 (0) Checking if we have a zip executable available
+0000.109 (0) Testing: /usr/bin/zip
+0000.118 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.121 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.122 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.122 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.133 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.145 (0) Working binary zip found: /usr/bin/zip
+0000.146 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.147 (0) Creation of backups of directories: beginning
+0000.153 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.738 (0) Total entities for the zip file: 811 directories, 6096 files (0 skipped as non-modified), 89.9 MB
+0000.745 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.752 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.755 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.757 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.760 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.766 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.774 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.778 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.780 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.787 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.789 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.3 MB, 6096 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.449 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: size is now: 6.70 MB
+0002.452 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1100 files added (on-disk size: 6879.9 KB)
+0002.454 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1200 files added (on-disk size: 6879.9 KB)
+0002.456 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1300 files added (on-disk size: 6879.9 KB)
+0002.457 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1400 files added (on-disk size: 6879.9 KB)
+0002.459 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1500 files added (on-disk size: 6879.9 KB)
+0002.461 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1600 files added (on-disk size: 6879.9 KB)
+0002.463 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1700 files added (on-disk size: 6879.9 KB)
+0002.465 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1800 files added (on-disk size: 6879.9 KB)
+0002.466 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 1900 files added (on-disk size: 6879.9 KB)
+0002.468 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2000 files added (on-disk size: 6879.9 KB)
+0002.469 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.1 MB, 6096 files batched, 1001 (2002) added so far); re-opening (prior size: 6879.9 KB)
+0003.551 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: size is now: 10.40 MB
+0003.556 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2100 files added (on-disk size: 10599.3 KB)
+0003.560 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2200 files added (on-disk size: 10599.3 KB)
+0003.563 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2300 files added (on-disk size: 10599.3 KB)
+0003.566 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2400 files added (on-disk size: 10599.3 KB)
+0003.570 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2500 files added (on-disk size: 10599.3 KB)
+0003.573 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2600 files added (on-disk size: 10599.3 KB)
+0003.576 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2700 files added (on-disk size: 10599.3 KB)
+0003.579 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2800 files added (on-disk size: 10599.3 KB)
+0003.582 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 2900 files added (on-disk size: 10599.3 KB)
+0003.584 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3000 files added (on-disk size: 10599.3 KB)
+0003.585 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 6096 files batched, 1001 (3003) added so far); re-opening (prior size: 10599.3 KB)
+0004.994 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: size is now: 15.60 MB
+0004.998 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3100 files added (on-disk size: 15959.5 KB)
+0004.999 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3200 files added (on-disk size: 15959.5 KB)
+0005.001 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3300 files added (on-disk size: 15959.5 KB)
+0005.003 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3400 files added (on-disk size: 15959.5 KB)
+0005.005 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3500 files added (on-disk size: 15959.5 KB)
+0005.007 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3600 files added (on-disk size: 15959.5 KB)
+0005.009 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3700 files added (on-disk size: 15959.5 KB)
+0005.011 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3800 files added (on-disk size: 15959.5 KB)
+0005.012 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 3900 files added (on-disk size: 15959.5 KB)
+0005.014 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4000 files added (on-disk size: 15959.5 KB)
+0005.015 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.2 MB, 6096 files batched, 1001 (4004) added so far); re-opening (prior size: 15959.5 KB)
+0006.456 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: size is now: 22.20 MB
+0006.460 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4100 files added (on-disk size: 22721 KB)
+0006.462 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4200 files added (on-disk size: 22721 KB)
+0006.465 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4300 files added (on-disk size: 22721 KB)
+0006.467 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4400 files added (on-disk size: 22721 KB)
+0006.469 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4500 files added (on-disk size: 22721 KB)
+0006.471 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4600 files added (on-disk size: 22721 KB)
+0006.473 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4700 files added (on-disk size: 22721 KB)
+0006.475 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4800 files added (on-disk size: 22721 KB)
+0006.478 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 4900 files added (on-disk size: 22721 KB)
+0006.480 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5000 files added (on-disk size: 22721 KB)
+0006.480 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.3 MB, 6096 files batched, 1001 (5005) added so far); re-opening (prior size: 22721 KB)
+0007.392 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5100 files added (on-disk size: 25673.6 KB)
+0007.395 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5200 files added (on-disk size: 25673.6 KB)
+0007.398 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5300 files added (on-disk size: 25673.6 KB)
+0007.400 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5400 files added (on-disk size: 25673.6 KB)
+0007.402 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5500 files added (on-disk size: 25673.6 KB)
+0007.404 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5600 files added (on-disk size: 25673.6 KB)
+0007.405 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5700 files added (on-disk size: 25673.6 KB)
+0007.407 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5800 files added (on-disk size: 25673.6 KB)
+0007.409 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 5900 files added (on-disk size: 25673.6 KB)
+0007.411 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip.tmp: 6000 files added (on-disk size: 25673.6 KB)
+0007.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.6 MB, 6096 files batched, 1001 (6006) added so far); re-opening (prior size: 25673.6 KB)
+0009.158 (0) Created plugins zip (0) - 31673 KB in 8.9 s (3543.7 KB/s) (sha1: 559e9a948ee2be90f1e0552f2650e5bf1ad56c3a, sha256: 6176e1f83991f4781980a77a4389c741c6a0c6775e1ca9ea60897859b81d6f54)
+0009.160 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.235 (0) Total entities for the zip file: 50 directories, 350 files (0 skipped as non-modified), 9.4 MB
+0009.239 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.242 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.244 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.736 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip.tmp: size is now: 6.00 MB
+0009.844 (0) Created themes zip (0) - 6167.6 KB in 0.6 s (9650.7 KB/s) (sha1: 2b2f3202778847bdfd3f320c73d0ba05e98ddf13, sha256: ebdffd984b231c1a3dc42c8207dc5c5d58416d646a019e962463f38ade7f4566)
+0009.848 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.849 (0) Looking for candidates to backup in: /home4/fromsixc/public_html/dev/from6/wp/from6-new/wp-content/uploads
+0009.849 (0) finding files: alm_templates: adding to list (1)
+0009.850 (0) finding files: js_composer: adding to list (2)
+0009.851 (0) finding files: 2021: adding to list (3)
+0009.851 (0) finding files: 2020: adding to list (4)
+0009.851 (0) finding files: 2022: adding to list (5)
+0009.852 (0) finding files: revslider: adding to list (6)
+0009.852 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.954 (0) Total entities for the zip file: 48 directories, 1328 files (0 skipped as non-modified), 77.5 MB
+0009.973 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.976 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.980 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.982 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.983 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1328 files batched, 402 (402) added so far); re-opening (prior size: 0 KB)
+0010.489 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: size is now: 25.10 MB
+0010.492 (0) A useful amount of data was added after this amount of zip processing: 0.6 s (normalised: 0.6 s, rate: 40576 KB/s)
+0010.493 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.6310670375824, normalised_time=0.63091519569513, max_time=10.489495038986, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0010.496 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 500 files added (on-disk size: 25700.2 KB)
+0010.499 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 600 files added (on-disk size: 25700.2 KB)
+0010.501 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 700 files added (on-disk size: 25700.2 KB)
+0010.503 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 800 files added (on-disk size: 25700.2 KB)
+0010.506 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 900 files added (on-disk size: 25700.2 KB)
+0010.508 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 1000 files added (on-disk size: 25700.2 KB)
+0010.510 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 1100 files added (on-disk size: 25700.2 KB)
+0010.513 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 1200 files added (on-disk size: 25700.2 KB)
+0010.515 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: 1300 files added (on-disk size: 25700.2 KB)
+0011.715 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip.tmp: size is now: 77.70 MB
+0012.790 (0) Created uploads zip (0) - 79615.3 KB in 2.9 s (27566 KB/s) (sha1: 5860fdafc6f27b6a4acf7d4b432193779451b737, sha256: 06cd62584b490242764d233b200f9bfec64aaec2eea96d0983a81b0741c56480)
+0012.795 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.795 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.796 (0) Looking for candidates to backup in: /home4/fromsixc/public_html/dev/from6/wp/from6-new/wp-content
+0012.796 (0) finding files: index.php: adding to list (1)
+0012.797 (0) finding files: updraft: skipping: this is the updraft directory
+0012.797 (0) finding files: uploads: skipping: this is the uploads directory
+0012.797 (0) finding files: languages: adding to list (2)
+0012.798 (0) finding files: themes: skipping: this is the themes directory
+0012.798 (0) finding files: plugins: skipping: this is the plugins directory
+0012.799 (0) finding files: upgrade: skipping: excluded by options
+0012.851 (0) Total entities for the zip file: 3 directories, 145 files (0 skipped as non-modified), 6.6 MB
+0012.853 (0) Zip: backup_2022-01-31-1336_From6_New_8dfe30f790bd-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.298 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-others.zip.tmp: size is now: 1.60 MB
+0013.325 (0) Created others zip (0) - 1688.9 KB in 0.5 s (3536.4 KB/s) (sha1: d751eaf3b31a65c45192bf1fd51ae11b8128e117, sha256: 398d591a3b62f006889aec84489e19f18cef050d60d79c86b27dc43bf6cb1746)
+0013.329 (0) Saving backup status to database (elements: 8)
+0013.332 (0) No database backup (wp) - not part of this run
+0013.334 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.335 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0013.335 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0013.336 (0) backup_2022-01-31-1336_From6_New_8dfe30f790bd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0013.336 (0) Saving backup history. Total backup size: 116.4 MB
+0013.338 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0013.341 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.341 (0) No remote despatch: user chose no remote backup service
+0013.342 (0) Recording as successfully uploaded: backup_2022-01-31-1336_From6_New_8dfe30f790bd-plugins.zip
+0013.344 (0) Recording as successfully uploaded: backup_2022-01-31-1336_From6_New_8dfe30f790bd-themes.zip
+0013.345 (0) Recording as successfully uploaded: backup_2022-01-31-1336_From6_New_8dfe30f790bd-uploads.zip
+0013.346 (0) Recording as successfully uploaded: backup_2022-01-31-1336_From6_New_8dfe30f790bd-others.zip
+0013.349 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.350 (0) Number of backup sets in history: 5; groups (db): 1
+0013.351 (0) Examining (for databases) backup set with group_id=0, nonce=8dfe30f790bd, datestamp=1643636205 (Jan 31 2022 13:36:45)
+0013.351 (0) Examining (for databases) backup set with group_id=0, nonce=a4c62ed969c9, datestamp=1643263820 (Jan 27 2022 06:10:20)
+0013.351 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.352 (0) Examining (for databases) backup set with group_id=0, nonce=881ddd5bf083, datestamp=1642664542 (Jan 20 2022 07:42:22)
+0013.352 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.352 (0) Examining (for databases) backup set with group_id=0, nonce=d8c87ff79db2, datestamp=1641194316 (Jan 03 2022 07:18:36)
+0013.352 (0) Examining (for databases) backup set with group_id=0, nonce=ba5d514555aa, datestamp=1638795352 (Dec 06 2021 12:55:52)
+0013.352 (0) Number of backup sets in history: 5; groups (files): 1
+0013.353 (0) Examining (for files) backup set with nonce=8dfe30f790bd, datestamp=1643636205 (Jan 31 2022 13:36:45)
+0013.353 (0) This backup set is the backup set just made, so will not be deleted.
+0013.353 (0) This backup set is the backup set just made, so will not be deleted.
+0013.353 (0) This backup set is the backup set just made, so will not be deleted.
+0013.353 (0) This backup set is the backup set just made, so will not be deleted.
+0013.353 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0013.354 (0) Examining (for files) backup set with nonce=a4c62ed969c9, datestamp=1643263820 (Jan 27 2022 06:10:20)
+0013.354 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.354 (0) Examining (for files) backup set with nonce=881ddd5bf083, datestamp=1642664542 (Jan 20 2022 07:42:22)
+0013.354 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.354 (0) Examining (for files) backup set with nonce=d8c87ff79db2, datestamp=1641194316 (Jan 03 2022 07:18:36)
+0013.354 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0013.355 (0) Examining (for files) backup set with nonce=ba5d514555aa, datestamp=1638795352 (Dec 06 2021 12:55:52)
+0013.355 (0) plugins: over retain limit (2); will delete this file entity
+0013.355 (0) themes: over retain limit (2); will delete this file entity
+0013.355 (0) uploads: over retain limit (2); will delete this file entity
+0013.355 (0) others: over retain limit (2); will delete this file entity
+0013.355 (0) Delete file: backup_2021-12-06-1255_From6_New_ba5d514555aa-plugins.zip, service=none
+0013.355 (0) Deleting local copy (backup_2021-12-06-1255_From6_New_ba5d514555aa-plugins.zip)
+0013.357 (0) Delete file: backup_2021-12-06-1255_From6_New_ba5d514555aa-themes.zip, service=none
+0013.357 (0) Deleting local copy (backup_2021-12-06-1255_From6_New_ba5d514555aa-themes.zip)
+0013.358 (0) Delete file: backup_2021-12-06-1255_From6_New_ba5d514555aa-uploads.zip, service=none
+0013.359 (0) Deleting local copy (backup_2021-12-06-1255_From6_New_ba5d514555aa-uploads.zip)
+0013.368 (0) Delete file: backup_2021-12-06-1255_From6_New_ba5d514555aa-others.zip, service=none
+0013.369 (0) Deleting local copy (backup_2021-12-06-1255_From6_New_ba5d514555aa-others.zip)
+0013.371 (0) This backup set is now empty; will remove from history
+0013.371 (0) Corresponding log file (log.ba5d514555aa.txt) not found - must have already been deleted
+0013.372 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0013.375 (0) Resume backup (8dfe30f790bd, 0): finish run
+0013.378 (0) Decremented the semaphore (f) by 1
+0013.380 (0) Semaphore (f) unlocked
+0013.380 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0013.383 (0) No email will/can be sent - the user has not configured an email address.
+0013.384 (0) The backup apparently succeeded and is now complete
